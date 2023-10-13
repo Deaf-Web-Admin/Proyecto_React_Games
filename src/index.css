@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Background: black;
+  --Text: white;
+  --Title: rgb(247, 247, 144);
+  --Go: rgb(139, 255, 139);
+  --Warning: rgb(243, 108, 108);
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: var(--Background);
+}

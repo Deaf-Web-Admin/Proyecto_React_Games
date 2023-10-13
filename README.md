@@ -1,2 +1,1 @@
-# Proyecto_React_Games
-Practica de React
+# AMVICU linux.user@techie.com
