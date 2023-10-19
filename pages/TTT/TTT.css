@@ -1,3 +1,53 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  color: aliceblue;
+  background-color: black;
+}
+header img {
+  height: inherit;
+  width: auto;
+}
 .imgInverted {
   filter: invert(100%);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.Board {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  width: 350px;
+  height: 350px;
+}
+
+.Sqare {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 0px;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+}
+@media only screen and (max-width: 375px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  header img {
+    display: none;
+  }
 }

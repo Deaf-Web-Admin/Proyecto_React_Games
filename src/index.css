@@ -13,4 +13,16 @@
 }
 body {
   background-color: var(--Background);
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2022/01/11/Gaming-background-blue-and-purple-Graphics-23272393-1-580x387.jpg");
+  background-position-y: 10vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+}
+@media only screen and (max-width: 375px) {
+body {
+  background-size: 150vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2grlXRzP_j6KK62ddAWAdRHD__gARLG9vtYngKlQduqy_H8CQJBvr_fKUXdOXZQk4uoA&usqp=CAU");
+}
 }
