@@ -6,15 +6,15 @@ const Home = () => {
   const inputValue = useRef(null);
   const { login } = useContext(UserContext);
   localStorage.setItem("Turno", "X");
-localStorage.setItem("Casilla1","");
-localStorage.setItem("Casilla2","");
-localStorage.setItem("Casilla3","");
-localStorage.setItem("Casilla4","");
-localStorage.setItem("Casilla5","");
-localStorage.setItem("Casilla6","");
-localStorage.setItem("Casilla7","");
-localStorage.setItem("Casilla8","");
-localStorage.setItem("Casilla9","");
+  localStorage.setItem("Casilla1", "");
+  localStorage.setItem("Casilla2", "");
+  localStorage.setItem("Casilla3", "");
+  localStorage.setItem("Casilla4", "");
+  localStorage.setItem("Casilla5", "");
+  localStorage.setItem("Casilla6", "");
+  localStorage.setItem("Casilla7", "");
+  localStorage.setItem("Casilla8", "");
+  localStorage.setItem("Casilla9", "");
 
   return (
     <main>

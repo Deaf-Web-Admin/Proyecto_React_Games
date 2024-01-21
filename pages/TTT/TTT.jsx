@@ -124,7 +124,7 @@ const TTT = () => {
     Comprobar();
     localStorage.setItem("Casilla9", localStorage.getItem("Turno"));
   };
-return (
+  return (
     <>
       <header>
         <img
