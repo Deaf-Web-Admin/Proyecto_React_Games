@@ -53,7 +53,7 @@ const TTT = () => {
     ) {
       jsConfetti.addConfetti({
         confettiRadius: 4,
-        confettiNumber: 100,
+        confettiNumber: 500,
       });
     } else {
       isEven();
@@ -124,7 +124,7 @@ const TTT = () => {
     Comprobar();
     localStorage.setItem("Casilla9", localStorage.getItem("Turno"));
   };
-  return (
+return (
     <>
       <header>
         <img

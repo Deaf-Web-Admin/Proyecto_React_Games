@@ -18,11 +18,10 @@ body {
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100vw;
-
 }
 @media only screen and (max-width: 375px) {
-body {
-  background-size: 150vh;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2grlXRzP_j6KK62ddAWAdRHD__gARLG9vtYngKlQduqy_H8CQJBvr_fKUXdOXZQk4uoA&usqp=CAU");
-}
+  body {
+    background-size: 150vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2grlXRzP_j6KK62ddAWAdRHD__gARLG9vtYngKlQduqy_H8CQJBvr_fKUXdOXZQk4uoA&usqp=CAU");
+  }
 }
